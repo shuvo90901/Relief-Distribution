@@ -2,16 +2,22 @@
     background-image: url(images/donation7.jpg);
     background-repeat: no-repeat;
     text-align: center;
-    padding-left: 250px;
-    padding-right: 250px;
-    padding-top: 100px;
-    padding-bottom: 200px;
+    padding: 90px 250px 200px 250px;
 }
 
 #header-font {
+    color: white;
+    color: white;
+}
+
+h1 {
     font-size: 60px;
-    color: white;
-    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
 }
 
 body {
@@ -25,9 +31,69 @@ body {
     background-color: rgb(255, 89, 89);
     color: white;
     border-radius: 20px;
+    font-weight: 700;
 }
 
 p {
-    color: #1cd6d9;
+    color: gray;
+    text-align: center;
 }
+
+.top-section p {
+    color: #1cd6d9;
+    color: ;
+}
+
+.donate-in-middle {
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.flexible-container {
+    display: flex;
+    color: gray;
+    padding-left: 300px;
+}
+
+.donate-plan {
+    display: flex;
+    color: gray;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.tk {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+#box-tk {
+    border: 3px solid gray;
+    border-radius: 10px;
+}
+
+#link {
+    margin-left: 43%;
+}
+
+.box-shadow {
+    box-shadow: 5px 5px 5px 5px gray;
+    margin: 10px;
+    padding: 10px;
+}
+
+#food {
+    background-color: rgba(193, 127, 127, 0.432);
+}
+
+#shelter {
+    background-color: rgba(0, 0, 255, 0.367);
+}
+
+#education {
+    background-color: rgba(255, 166, 0, 0.379);
 }
