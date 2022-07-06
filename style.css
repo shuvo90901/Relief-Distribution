@@ -41,7 +41,8 @@ p {
 
 .top-section p {
     color: #1cd6d9;
-    color: ;
+    font-weight: 800;
+    padding-bottom: 50px;
 }
 
 .donate-in-middle {
@@ -92,6 +93,8 @@ h3 {
 
 #shelter {
     background-color: rgba(0, 0, 255, 0.367);
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 #education {
@@ -116,6 +119,8 @@ footer {
     display: flex;
     justify-content: center;
     height: 100px;
+    padding-bottom: 40px;
+    padding-top: 20px;
 }
 
 .form-box {
@@ -127,4 +132,24 @@ footer {
 
 section {
     padding-bottom: 30px;
+}
+
+.bonus-part {
+    display: flex;
+
+}
+
+.donation-bonus {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.donation-bonus2 {
+    width: 50%;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
 }
